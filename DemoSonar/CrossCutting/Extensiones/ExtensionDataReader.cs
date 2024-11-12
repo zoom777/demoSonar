@@ -112,6 +112,55 @@ namespace CrossCutting
             }
 
             return buffer;
-        }  
+        }
+
+        public static byte GetValueByte2(this IDataReader reader, int ordinal)
+        {
+            byte value = 0;
+
+            if (!reader.IsDBNull(ordinal))
+            {
+                value = reader.GetByte(ordinal);
+            }
+
+            return value;
+        }
+
+        public static byte[] GetValueBytes2(this IDataReader reader, int ordinal, int len)
+        {
+            byte[] buffer = new byte[len];
+
+            if (!reader.IsDBNull(ordinal))
+            {
+
+                reader.GetBytes(ordinal, 0, buffer, 0, len);
+            }
+
+            return buffer;
+        }
+
+        public static Boolean GetValueBoolean2(this IDataReader reader, int ordinal)
+        {
+            bool value = false;
+
+            if (!reader.IsDBNull(ordinal))
+            {
+                value = reader.GetBoolean(ordinal);
+            }
+
+            return value;
+        }
+
+        public static Guid GetValueGuid2(this IDataReader reader, int ordinal)
+        {
+            Guid value = default(Guid);
+
+            if (!reader.IsDBNull(ordinal))
+            {
+                value = reader.GetGuid(ordinal);
+            }
+
+            return value;
+        }
     }
 }
