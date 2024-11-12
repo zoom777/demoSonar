@@ -8,5 +8,9 @@ namespace BusinessLogic
 {
     internal class BCity
     {
+        public BCity()
+        {
+            
+        }
     }
 }

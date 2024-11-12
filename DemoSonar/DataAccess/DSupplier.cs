@@ -9,6 +9,10 @@ namespace DataAccess
 {
     internal class DSupplier : IDataAccess<supplier>
     {
+        public DSupplier()
+        {
+            
+        }
         public void Actualizar(supplier pEntidad)
         {
             throw new NotImplementedException();

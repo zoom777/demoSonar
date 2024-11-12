@@ -9,6 +9,10 @@ namespace DataAccess
 {
     internal class DCountry : IDataAccess<Country>
     {
+        public DCountry()
+        {
+            
+        }
         public void Actualizar(Country pEntidad)
         {
             throw new NotImplementedException();

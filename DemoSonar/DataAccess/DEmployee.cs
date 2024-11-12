@@ -8,5 +8,9 @@ namespace DataAccess
 {
     internal class DEmployee
     {
+        public DEmployee()
+        {
+            
+        }
     }
 }

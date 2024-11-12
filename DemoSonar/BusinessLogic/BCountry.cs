@@ -8,5 +8,9 @@ namespace BusinessLogic
 {
     internal class BCountry
     {
+        public BCountry()
+        {
+            
+        }
     }
 }

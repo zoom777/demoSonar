@@ -3,6 +3,9 @@ namespace DataAccess
 {
     public class DCity
     {
-        
+        public DCity()
+        {
+            
+        }
     }
 }

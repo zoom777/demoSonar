@@ -8,6 +8,10 @@ namespace Entity
 {
     public class Country
     {
+        public Country()
+        {
+            
+        }
         public int id { get; set; }
         public string name { get; set; }
     }

@@ -8,6 +8,10 @@ namespace Entity
 {
     public class Employee2
     {
+        public Employee2()
+        {
+            
+        }
         public int Id { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }

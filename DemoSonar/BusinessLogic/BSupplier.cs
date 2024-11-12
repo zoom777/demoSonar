@@ -8,5 +8,9 @@ namespace BusinessLogic
 {
     internal class BSupplier
     {
+        public BSupplier()
+        {
+            
+        }
     }
 }

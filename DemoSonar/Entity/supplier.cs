@@ -8,6 +8,10 @@ namespace Entity
 {
     public class supplier
     {
+        public supplier()
+        {
+            
+        }
         public int id;
         public string name;
         public string description;
