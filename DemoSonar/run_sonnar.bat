@@ -1,3 +1,3 @@
-dotnet sonarscanner begin /o:"usuariotmp001" /k:"usuariotmp001_demoSonar" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.token="ca62dcb0d053760142e0b51651313e66729f8716" /d:sonar.scanner.scanAll=false
+dotnet sonarscanner begin   /o:"contosodemo"   /k:"zoom777_demoSonar"   /d:sonar.host.url="https://sonarcloud.io"   /d:sonar.token="d5e72feb1b1ee4fdc2e84590cb0dfd604508d7ca"
 dotnet build
-dotnet sonarscanner end /d:sonar.token="ca62dcb0d053760142e0b51651313e66729f8716"
+dotnet sonarscanner end /d:sonar.token="d5e72feb1b1ee4fdc2e84590cb0dfd604508d7ca"
