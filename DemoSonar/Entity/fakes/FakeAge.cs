@@ -11,6 +11,7 @@ namespace Entity.fakes
         public FakeAge()
         {
             age1 = 1;
+            age1 = 2;
             age2 = 2;
             age3 = 3;
             age4 = 4;
