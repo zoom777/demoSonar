@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{B6FC9D2B-E86A-47F9-A67E-8D6587CEF998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{A1E157C8-6228-49A9-B521-F6424350939E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{A1E157C8-6228-49A9-B521-F6424350939E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossCutting", "CrossCutting\CrossCutting.csproj", "{3F352F64-CE88-42EB-96EE-1EF67398EDDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting", "CrossCutting\CrossCutting.csproj", "{3F352F64-CE88-42EB-96EE-1EF67398EDDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{6D0E7D6E-F3F1-4D20-9DF6-68323B597F80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{6D0E7D6E-F3F1-4D20-9DF6-68323B597F80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{51A327A8-E7B2-4EEE-A087-233FBE1DE3F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{51A327A8-E7B2-4EEE-A087-233FBE1DE3F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vulnerable_asp_net_core", "vulnerable_asp_net_core\vulnerable_asp_net_core.csproj", "{E58B9AFD-34B7-48F6-B830-9117AC983149}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B6FC9D2B-E86A-47F9-A67E-8D6587CEF998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6FC9D2B-E86A-47F9-A67E-8D6587CEF998}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6FC9D2B-E86A-47F9-A67E-8D6587CEF998}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6FC9D2B-E86A-47F9-A67E-8D6587CEF998}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A1E157C8-6228-49A9-B521-F6424350939E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A1E157C8-6228-49A9-B521-F6424350939E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1E157C8-6228-49A9-B521-F6424350939E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{51A327A8-E7B2-4EEE-A087-233FBE1DE3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A327A8-E7B2-4EEE-A087-233FBE1DE3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A327A8-E7B2-4EEE-A087-233FBE1DE3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58B9AFD-34B7-48F6-B830-9117AC983149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58B9AFD-34B7-48F6-B830-9117AC983149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58B9AFD-34B7-48F6-B830-9117AC983149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58B9AFD-34B7-48F6-B830-9117AC983149}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
