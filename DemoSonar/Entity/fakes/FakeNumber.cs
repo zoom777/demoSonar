@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity
+namespace Entity.fakes
 {
-    internal class FakeNumber2
+    internal class FakeNumber
     {
-        public FakeNumber2()
+        public FakeNumber()
         {
-            this.number1 = 1;
+            number1 = 1;
             number2 = 2;
             number3 = 3;
             number4 = 4;
